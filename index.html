@@ -14,18 +14,26 @@
             <h1>Welcome back</h1>
             <p>Welcome back! Please enter your details.</p>
             <form action="/url">
-                <label for="email1">Email</label>
-                <input type="email" id="email1" placeholder="Enter your email" required >
-                <label for="password">Password</label>
-                <input type="password" placeholder="*******" required >
-                <input type="checkbox">
-                <label for="checkbox">Remember for 30 days</label>
+                <div class="data">
+                    <label for="email1">Email</label>
+                    <input type="email" id="email1" placeholder="Enter your email" required >
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="*******" required>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="rem">
+                    <label for="rem">Remember for 30 days</label>
+                    <a href="">Forgot password</a>
+                </div>
             </form>
-            <a href="">Forgot password</a>
-            <button>Sign in</button>
-            <button>Sign in with Google</button>
-            <p>Dont have an account?</p>
-            <a href="">Sign up for free</a>
+            <div class="signin">
+                <button class="b1">Sign in</button>
+                <button class="b2">Sign in with Google</button>
+            </div>
+            <div class="fin">
+                <p>Dont have an account?</p>
+                <a href="" class="signup"><b>Sign up for free</b></a>
+            </div>
         
     
         </section>

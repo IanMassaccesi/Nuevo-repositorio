@@ -2,43 +2,112 @@
 *{
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    font-family:'Josefin Sans', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
 }
 h1{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
-    padding-top: 150px;
-    font-size: 35px;
+    padding-top: 0px;
+    font-size: 35px;    
 }
- 
-
 form{
     display: flex;
     flex-direction: column;
-}
-
-.izq p{
-    margin: 15px 0;
     margin-left: 100px;
-    font-family: 'Josefin Sans', sans-serif; ;
-    font-weight: 200;
-    font-size: 20px;
+}
+label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.checkbox a{
+    color: black;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;   
+}
+.data input{
+    padding: 8px;
+    padding-right: 150px;
+    border-radius: 8px;
 }
 
 .izq{
-    padding-top: 50px;
-    max-width: 50%;
-    background-color: #ffff;
+    max-width: 80% ;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
-}
-
-
-
-.der{
-    max-width: 50%;
-    background-image: url(img1.jpg);
     
 }
+
+.izq p{
+    margin: 15px 0;
+    margin-left: 90px;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 200;
+    font-size: 20px;
+   
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.signin button{
+    margin: 15px 0;
+    padding: 13px;
+    padding-right: 100px;
+    border-radius: 8px;
+}
+
+.b1{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: black;
+    border: 0px;
+    font-weight: 700;
+}
+
+.b2{
+    background-color: #ffffff;
+    
+}
+
+.fin{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px ;
+}
+
+.fin a{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 13px;
+    font-family:'Josefin Sans', sans-serif; 
+    font-weight: 600;
+    color: black;
+    margin-left: 15px;
+}
+
+.der{
+    background-image: url(img1.jpg);
+    background-size: 100%;
+    /* max-height: 100%; */
+}
+
