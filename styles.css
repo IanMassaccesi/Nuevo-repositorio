@@ -35,11 +35,19 @@ label{
 }
 .data input{
     padding-left: 15px;
-    height: 25px;
+    height: 30px;
+    width: 300px;
     border-radius: 5px;
     border: solid 1px rgb(204, 204, 204) ;
+    outline: #949494;
 }
+   
 
+    
+
+.checkbox a,label{
+    font-size: 14px;
+}
 .izq{
     max-width: 80% ;
     background-color: #ffffff;
@@ -69,8 +77,8 @@ label{
 
 .signin button{
     margin: 15px 0;
-    width: 280px;
-    height: 40px;
+    height: 34px;
+    width: 310px;
     border-radius: 8px;
     margin-left: 90px;
     align-items: center;
@@ -157,8 +165,12 @@ label{
    
 }
 
-.dcont p,h6,h3{
+.dcont h6,h3{
     color: white;
+}
+.dcont p{
+    color: white;
+    font-weight: 200;
 }
 
 
